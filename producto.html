@@ -1,25 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Cerveceria</title>
+    <script src="scripts/script.js"></script>
 </head>
-<body>
-    <div id="header">
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="producto.html">Productos</a></li>
-          <li><a href="servicio.html">Servicios</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+<body onload="currentSlide(1)">
+    <div class="header">     
+      <div class="header_superior">
+        <div class="logo"></div>        
+      </div>
+      <div class="container_menu">
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="producto.html">Productos</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
-    <div id="contenido">
-      asdsadasdasds
+    <div class="container-cards">
+      <div class="container">
+        <div class="card">
+          <div class="card-image">
+            <img src="image/cream_ale.jpg" class="img-card" >
+          </div>
+          <h2>CREAM ALE</h2>
+          <p>Estilo americano del siglo XIX, ideal para degustar a diario. 
+            Rubia de cuerpo liviano, amargor ligero y aroma simple.</p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="image/irish.jpg" class="img-card" >
+          </div>
+          <h2>IRISH RED ALE</h2>
+          <p>Verdadero estilo irlandés, de amargor ligero y color rojizo. 
+            Destaca su suave aroma a maltas con notas dulces de caramelo tostado.</p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="image/honey.jpg" class="img-card" >
+          </div>
+          <h2>HONEY</h2>
+          <p>Típico estilo joven de notas profundas en boca. 
+            Su frescura marida dulcemente con la intensidad de la malta.</p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="image/indiaPaleAle.jpg" class="img-card" >
+          </div>
+          <h2>INDIAN PALE ALE</h2>
+          <p>Antiguo estilo colonial, de color ámbar y fuerte amargor. Aromas cítricos y frutales, le dan una marcada personalidad.</p>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="image/porter.jpg" class="img-card" >
+          </div>
+          <h2>PORTER</h2>
+          <p>Clásico estilo londinense de gran cuerpo y de color oscuro. Su cremosidad marida con notas ahumadas y aroma a café y chocolate..</p>
+        </div>
+        <div class="card">
+          <h2>Título de la Card</h2>
+          <p>Contenido de la card.</p>
+        </div>
+      </div>
     </div>
     <div id="sidebar">
       asdasdasdasdasd
