@@ -262,6 +262,20 @@ nav a.active {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.news-item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.news-item li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 .news-image-container {
   text-align: center;
 }
