@@ -221,5 +221,53 @@ nav a.active {
    width: 125px;
  }
 
+ .container-video {
+  width: 800px;
+  margin: 80px auto;
+}
 
+.container-news {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.news-item {
+  display: flex;
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.news-item h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+   transition: all 300ms ease;
+}
+
+.news-container-text{
+ display: flex;
+ flex-direction: column;
+ margin: 10px;
+}
+
+.news-item p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.news-image-container {
+  text-align: center;
+}
+
+ .news-image {
+   height: 250px;
+   width: 300px;
+ }
 
