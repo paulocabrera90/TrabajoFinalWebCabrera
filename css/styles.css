@@ -6,8 +6,10 @@
 }
 body {
      background-image: url(/TrabajoFinalWebCabrera/image/fondoBackground.png);
- /* background-image: url(/image/fondoBackground.png);*/
-  background-repeat: no-repeat;
+  /* background-image: url(/image/fondoBackground.png);*/
+ background-repeat: no-repeat;
+ background-size: cover;
+ filter: brightness(1.2);
 }
 
 /* .header {
