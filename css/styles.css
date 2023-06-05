@@ -5,8 +5,8 @@
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
-     background-image: url(/TrabajoFinalWebCabrera/image/fondoBackground.png);
- /** background-image: url(/image/fondoBackground.png);*//
+    /* background-image: url(/TrabajoFinalWebCabrera/image/fondoBackground.png);*/
+  background-image: url(/image/fondoBackground.png);
 }
 
 /* .header {
@@ -192,14 +192,15 @@ nav a.active {
 
 /*CARDS*/
 .card {
-   background-color: #fff;
+   background-color: #eeeeee;
    border-radius: 5px;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
    margin: 10px;
    padding: 20px;
-   width: 300px;
+   width: 80%;
    height: 300px;
    border-radius: 5px;
+   display: flex;
  }
  
  .card h2 {
